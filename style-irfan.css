@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.container-logo {
+  padding: 10px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 407px;
+}
+
+.container-nav a {
+  color: #20262a;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.container-button {
+  display: flex;
+}
+
+.container-button button {
+  display: inline-flex;
+  height: 52px;
+  padding: 20px 36px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 85px;
+  background-color: white;
+  color: #00b6f0;
+  border: 1px solid #00b6f0;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.container-section {
+  width: 634px;
+  margin: 62px auto;
+}
+
+.container-text {
+  text-align: center;
+  padding-bottom: 59px;
+}
+
+.container-text h2 {
+  color: #f3cd03;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: normal;
+}
+
+.container-text h1 {
+  font-size: 56px;
+  line-height: 65px;
+}
+
+.container-text p {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.container-button-2 {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+
+.container-button-2 button {
+  padding: 20px 50px;
+  border-radius: 85px;
+  border: 2px solid #00b6f0;
+  background-color: #00b6f0;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.container-button-2 button:last-child {
+  background-color: #fff;
+  color: #00b6f0;
+}
+
+.pricing-section {
+  border: 1px solid black;
+  padding: 100px 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #182333;
+}
+
+.container-pricing {
+  display: flex;
+  justify-content: space-between;
+  width: 881px;
+}
+
+.pricing-title {
+  width: 437px;
+}
+
+.pricing-title h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 65px;
+  padding-bottom: 20px;
+}
+
+.pricing-title p {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.pricing-content {
+  width: 277px;
+}
+
+.pricing-content p {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 0;
+  font-weight: 450;
+  letter-spacing: 0.2px;
+}
+
+.pricing-content p :last-child {
+  padding: 20px 10px;
+}
+
+.pricing-content button {
+  padding: 10px 48px;
+  border: none;
+  border-radius: 85px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  background-color: #00b6f0;
+}
+
+.price-tag {
+  display: flex;
+  gap: 10px;
+  width: 233px;
+  align-items: center;
+}
+
+.price-tag p:first-child {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 78px;
+  color: #f3cd03;
+}
